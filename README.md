@@ -39,7 +39,7 @@ If you wish to remove the extension, simply run these commands in your terminal:
 
 ```
 rm -rf ~/.local/share/folder-color-gui
-rm ~/.local/share/nautilus-python/extensions/mudar_cor_pasta.py
+rm ~/.local/share/nautilus-python/extensions/folder_color_extension.py
 rm ~/.config/autostart/folder-color-watcher.desktop
 pkill -f folder_theme_watcher.py
 killall nautilus && nautilus &
