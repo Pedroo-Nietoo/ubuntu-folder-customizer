@@ -14,9 +14,9 @@ mkdir -p ~/.local/share/folder-color-gui
 mkdir -p ~/.config/autostart
 
 echo "Copying extension files..."
-cp src/mudar_cor_pasta.py ~/.local/share/nautilus-python/extensions/
-cp src/folder_gui.py ~/.local/share/folder-color-gui/
-cp src/folder_theme_watcher.py ~/.local/share/folder-color-gui/
+cp mudar_cor_pasta.py ~/.local/share/nautilus-python/extensions/
+cp folder_gui.py ~/.local/share/folder-color-gui/
+cp folder_theme_watcher.py ~/.local/share/folder-color-gui/
 
 echo "Setting up Light/Dark mode watcher daemon..."
 cat << 'EOF' > ~/.config/autostart/folder-color-watcher.desktop
